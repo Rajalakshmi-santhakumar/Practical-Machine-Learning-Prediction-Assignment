@@ -2,8 +2,8 @@
 title: "Practical Machine Learning - Prediction Assignment Writeup"
 author: "Rajalakshmi Santhakumar"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 geometry: margin = 0.5in
 ---
 ## Executive Summary
@@ -109,7 +109,7 @@ Random forest prediction model provides 99% accurancy hence this model has been 
 
 ## Conclusion
 
-From the above results the random forest method provides the best fit model and it is been considered for testing the test data set to submit results.
+From the above results the random forest method provides the best fit model and it is been considered for testing the test data set to submit results.The estimated accuracy of the model is 99.30% and the estimated out-of-sample error is 0.70%.
 
 ```{r, echo=TRUE}
 pred3 =  predict(modfit2,testingSet,type='class')

@@ -125,7 +125,7 @@ $(document).ready(function () {
 <div id="executive-summary" class="section level2">
 <h2>Executive Summary</h2>
 <p>Using devices such as Jawbone Up, Nike FuelBand, and Fitbit it is now possible to collect a large amount of data about personal activity relatively inexpensively. In this project, we will use data recorded from accelerometers on the belt, forearm, arm, and dumbbell of 6 participants. They were asked to perform barbell lifts correctly and incorrectly in 5 different ways.</p>
-<p>The goal of this project is to predict the manner in which the volunteers did the exercise. The outcome is measured against 60 observations and classifed as “A,B,C,D,E” catogerise and it is stored in the classe variable in the data set.</p>
+<p>The goal of this project is to predict the manner in which the volunteers did the exercise. The outcome is measured against 60 observations and classifed as “A,B,C,D,E” categorize and it is stored in the classe variable in the data set.</p>
 </div>
 <div id="loading-the-data" class="section level2">
 <h2>Loading the data</h2>
@@ -213,7 +213,7 @@ z2$table</code></pre>
 </div>
 <div id="conclusion" class="section level2">
 <h2>Conclusion</h2>
-<p>From the above results the random forest method provides the best fit model and it is been considered for testing the test data set to submit results.</p>
+<p>From the above results the random forest method provides the best fit model and it is been considered for testing the test data set to submit results.The estimated accuracy of the model is 99.30% and the estimated out-of-sample error is 0.70%.</p>
 <pre class="r"><code>pred3 =  predict(modfit2,testingSet,type='class')
 nofiles = length(pred3)
 for (i in 1:nofiles){
