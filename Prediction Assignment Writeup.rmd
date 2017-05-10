@@ -61,7 +61,7 @@ training <-trainingSet[inTrain,]
 testing <- trainingSet[-inTrain,]
 ```
 
-## Modeling
+## Modeling and Cross-validation
 
 We now create our model using the functions provided in caret package in R. 
 
